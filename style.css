@@ -1,0 +1,151 @@
+/* nav{
+    display: flex;
+    flex-direction:row ;
+    height: 20vh; 
+
+} */
+
+
+*{
+    font-family: poppins;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20vh;
+    margin: 50px 50px;
+  }
+  
+nav ul{
+    flex: 2;
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: center;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    padding: 0px 30px;
+    /* justify-content: space-between; */
+    font-family: Orbitron;
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: solid;
+}
+
+
+.nav-button{
+    position: relative;
+    bottom: 35px;
+    padding: 5px 30px;
+    border-radius: 12px;
+    font-family: poppins;
+}
+
+.search-icon{
+    position: relative;
+    size: 30px;
+    right: 50px;
+    top: 5px;
+    size: 60%;
+
+}
+.square{
+    position: relative;
+    left: 150x;
+    max-height: 60%;
+}
+
+
+.heroimg{
+
+    position: relative;
+    bottom: 1cm;
+    right: 130px;
+    max-width: 450px;
+    /* max-height: 500px; */
+
+}
+
+.square{
+    position: relative;
+    top: 180px;
+    left: 160px;
+    max-width: 100px;
+}
+
+.star{
+    position: relative;
+    margin-bottom: 150px;
+    left: 1200px; 
+}
+
+.globe{
+    position: relative;
+    margin-bottom: 500px;
+    left: 500px; 
+    max-width: 30px;
+    
+} 
+
+
+.hero-container{
+    display: flex;
+    
+}
+
+.hero-heading{
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 60px;
+
+}
+
+.hero-description{
+    padding: 10px 50px;
+    text-align: center;
+}
+
+
+
+.contact-heading{
+    /* align-items : flex-end; */
+    text-align: center;
+}
+.button-email{
+    display: inline;
+    position: relative;
+    margin-left: 250px;
+    
+}
+.button-email, .button-join{
+    /* bottom: 35px; */
+    padding: 5px 30px;
+    border-radius: 12px;
+    /* font-family: poppins; */
+    font-family: Orbitron;
+    font-weight: 200;
+    font: bolder;
+    font-size: large;
+}
+.button-join{
+    background-color: black;
+    color: aliceblue;
+}
+ 
+
+/* .button-join{
+    /* align-items: center; */
+    /* position: relative;
+    margin-bottom: 70px;
+    margin-left: 12cm;
+    display: flex;
+    align-items: flex-end;
+} */ 
+
+.icons{
+    position: relative;
+    margin-left: 325px;
+}
