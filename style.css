@@ -132,9 +132,23 @@ nav li{
     font: bolder;
     font-size: large;
 }
+.button-email:hover{
+    background-color: black;
+    color: aliceblue;
+}
 .button-join{
     background-color: black;
     color: aliceblue;
+}
+.button-join:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.list-item:hover{
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+    transition: margin-right 2s ease-in-out;
 }
  
 
