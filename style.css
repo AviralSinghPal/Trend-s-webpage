@@ -92,8 +92,10 @@ nav li{
 
 
 .hero-container{
+    /* border: 2px solid black; */
     display: flex;
-    
+    text-align: center;
+    /* align-items: center; */
 }
 
 .hero-heading{
@@ -117,7 +119,7 @@ nav li{
 .button-email{
     display: inline;
     position: relative;
-    margin-left: 250px;
+    /* margin-left: 20px; */
     
 }
 .button-email, .button-join{
@@ -147,5 +149,5 @@ nav li{
 
 .icons{
     position: relative;
-    margin-left: 325px;
+    /* margin-left: 325px; */
 }
