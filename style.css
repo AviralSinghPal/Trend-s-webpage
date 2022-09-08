@@ -176,15 +176,24 @@ nav li{
 
 
 @media screen and (max-width:800px){
+    nav{
+        position: fixed;
+        top: 0;
+        margin-top: 0;
+        width: 100%;
+        z-index: 20;
+        background-color: white;
+    }
 
     .hero-container{
+        margin-top: 100px;
         flex-direction: column;
     }
     .hero-container{
         /* position: fixed; */
         position: relative;
         top:-1000px;
-        left: 100px;
+        /* left: 100px; */
 
     /* bottom: 1cm; */
     /* right: 130px; */
@@ -192,10 +201,15 @@ nav li{
     /* max-height: 500px; */
     }
     .heroimg{
+        margin-left: 25%;
+        margin-top: 1000px;
         transform: scale(0.7);
     }
 .burger{
     display: block;
+}
+.burger:hover{
+    cursor: pointer;
 }
 .list{
     display: none;
@@ -206,5 +220,59 @@ nav li{
 .nav-button{
     display: none;
 }
+.hero-container-right{
+    /* float: left; */
+    /* margin-left: -150px; */
+}
 
+.hero-heading{
+    width: 90vw;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Orbitron;
+    font-size: 30px;
+
+}
+
+.hero-description{
+    
+    padding: 7px 50px;
+    text-align: center;
+}
+
+
+
+.contact-heading{
+    /* align-items : flex-end; */
+    text-align: center;
+}
+.button-email{
+    display: inline;
+    position: relative;
+    /* margin-left: 20px; */
+    
+}
+.square{
+    display: none;
+    /* position: absolute; */
+    /* top: 180px; */
+    left: 10px;
+    /* max-width: 100px; */
+}
+
+.star{
+    display: none;
+    position: relative;
+    margin-bottom: 150px;
+    left: 1200px; 
+}
+
+.globe{
+    display: none;
+    position: relative;
+    margin-bottom: 500px;
+    left: 500px; 
+    max-width: 30px;
+    
+} 
 }
